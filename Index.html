@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estudio Contable</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    body {
+      background-color: #f9fafc;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #0a2540;
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    figure img {
+      border-radius: 8px;
+      width: 100%;
+      height: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>Estudio Contable</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Nosotros</a></li>
+      <li><a href="#" role="button">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Servicios Contables Profesionales</h2>
+          <h3>Soluciones expertas para tu empresa</h3>
+        </hgroup>
+        <p>
+          Somos un estudio contable especializado en asesoría financiera, 
+          tributaria y administrativa para pequeñas, medianas y grandes empresas. 
+          Nuestro equipo de expertos está listo para optimizar tus procesos contables.
+        </p>
+
+        <figure>
+          <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-CXkHhOcfyK2ogT5VqOkLrKqA/user-wqHX2A27sOBN6Zz6y8oiYpTn/img-ae3c84ca-61d7-4d7a-8b5d-af16fe0f45ab-1891395024.png?st=2025-09-24T22%3A48%3A54Z&se=2025-09-25T00%3A48%3A54Z&sp=r&sv=2021-08-06&sr=b&sig=KXU6RAXdC6UzGQk2rX7Th7JUmcPXVdAh%2FM0gVQ5ArEw%3D" alt="Equipo contable trabajando">
+          <figcaption><a href="#" target="_blank">Conoce más sobre nuestro equipo</a></figcaption>
+        </figure>
+
+        <h3>Nuestros Servicios</h3>
+        <p>
+          Ofrecemos servicios de contabilidad general, planificación tributaria, 
+          gestión de nóminas, auditorías y consultoría financiera personalizada.
+        </p>
+
+        <h3>¿Por qué elegirnos?</h3>
+        <p>
+          Porque contamos con más de 15 años de experiencia, atención personalizada 
+          y un compromiso sólido con la excelencia y la transparencia.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <!-- SUBSCRIBE / CONTACT -->
+  <section aria-label="Suscripción">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>Contáctanos</h2>
+          <h3>Solicita tu consulta gratuita</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="Tu nombre" aria-label="Nombre" required />
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico" aria-label="Correo" required />
+          <button type="submit" onclick="event.preventDefault()">Enviar</button>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <small>
+      <a href="#">Política de privacidad</a> • 
+      <a href="#">Términos y condiciones</a>
+    </small>
+  </footer>
+
+</body>
+</html>
