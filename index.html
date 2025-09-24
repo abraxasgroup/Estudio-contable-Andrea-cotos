@@ -2,40 +2,62 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Estudio Contable</title>
+
+  <!-- Favicon & Mobile App Icons -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="icon-ios.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Theme Colors -->
+  <meta name="theme-color" content="#0a2540">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Estudio Contable">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
   <style>
     body {
       background-color: #f9fafc;
       color: #333;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
     header {
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 2.5rem 1rem;
       background: #0a2540;
       color: white;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
     }
     header p {
-      font-size: 1.2rem;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
       margin-top: 0.5rem;
     }
     figure img {
-      border-radius: 8px;
+      border-radius: 10px;
       width: 100%;
       height: auto;
     }
     section {
-      margin-bottom: 3rem;
+      margin-bottom: 2.5rem;
     }
     footer {
       text-align: center;
-      margin-top: 3rem;
+      margin-top: 2.5rem;
       padding: 2rem 0;
       border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+    }
+    /* Botón grande en móviles */
+    button {
+      font-size: 1.1rem;
+      padding: 0.8rem;
+      border-radius: 8px;
     }
   </style>
 </head>
